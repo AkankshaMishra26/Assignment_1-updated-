@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Voting Button</h1>
+        <div class="voting-section">
+            <div id="buttons-container" class="buttons-container">
+                <button class="vote-button" data-id="A">A</button>
+                <button class="vote-button" data-id="B">B</button>
+                <button class="vote-button" data-id="C">C</button>
+            </div>
+            <button id="add-button" class="add-button">Add Button</button>
+            <button id="reset-button">Reset</button>
+
+        </div>
+        <div class="results-section">
+            <div class="results">
+                <h2>Results</h2>
+                <div id="percentages" class="percentages">
+                    <p id="percentageA" class="percentage">A: 0%</p>
+                    <p id="percentageB" class="percentage">B: 0%</p>
+                    <p id="percentageC" class="percentage">C: 0%</p>
+                </div>
+                <div id="results" class="result-details"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
